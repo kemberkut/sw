@@ -1,0 +1,11 @@
+#allrecords *,
+.tn-artboard *
+{
+    font-family: "Geist", sans-serif !important;
+}
+
+.btn_dark .tn-atom
+{
+    background: linear-gradient(168.16deg, #9142FF 4.08%, #3F0294 86.75%) !important;
+    box-shadow: inset 0px 0px 20px #A962FF !important;
+}
