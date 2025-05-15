@@ -2,6 +2,7 @@
 .tn-artboard *
 {
     font-family: "Geist", sans-serif !important;
+    letter-spacing: -0.03em !important;
 }
 
 .btn_dark .tn-atom
