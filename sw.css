@@ -12,12 +12,12 @@
 
 .btn_yelow .tn-atom
 {
-    background: linear-gradient(159.41deg, #FFCD02 34.3%, #A18F07 73.67%);
-    box-shadow: inset 0px 0px 20px #FFFF62;
+    background: linear-gradient(159.41deg, #FFCD02 34.3%, #A18F07 73.67%) !important;
+    box-shadow: inset 0px 0px 20px #FFFF62 !important;
 }
 
 .btn_gray .tn-atom
 {
-    background: linear-gradient(180deg, #FFFFFF 21.15%, #999999 100%);
-    box-shadow: inset 0px 0px 30px #FFFFFF;
+    background: linear-gradient(180deg, #FFFFFF 21.15%, #999999 100%) !important;
+    box-shadow: inset 0px 0px 30px #FFFFFF !important;
 }
