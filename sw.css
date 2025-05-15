@@ -22,3 +22,8 @@
     background: linear-gradient(180deg, #FFFFFF 21.15%, #999999 100%) !important;
     box-shadow: inset 0px 0px 30px #FFFFFF !important;
 }
+
+.fg-glow
+{
+mix-blend-mode: plus-lighter;
+}
