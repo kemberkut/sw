@@ -33,7 +33,7 @@
 mix-blend-mode: plus-lighter;
 }
 
-[class*="uc-showmore-"].active
+[href*="showmore-"].active
 {
     text-decoration: underline;
 }
