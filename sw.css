@@ -50,3 +50,8 @@ mix-blend-mode: plus-lighter;
     background-image: linear-gradient(159.41deg, #FFCD02 34.3%, #A18F07 73.67%) !important;
     box-shadow: inset 0px 0px 20px #FFFF62 !important;
 }
+
+.bg-image
+{
+    z-index: -1;
+}
