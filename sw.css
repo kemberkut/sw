@@ -10,19 +10,19 @@
     letter-spacing: -0.03em !important;
 }
 
-.btn_dark .tn-atom
+.btn_dark:not(:hover) .tn-atom
 {
     background: linear-gradient(168.16deg, #9142FF 4.08%, #3F0294 86.75%) !important;
     box-shadow: inset 0px 0px 20px #A962FF !important;
 }
 
-.btn_yelow .tn-atom
+.btn_yelow:not(:hover) .tn-atom
 {
     background: linear-gradient(159.41deg, #FFCD02 34.3%, #A18F07 73.67%) !important;
     box-shadow: inset 0px 0px 20px #FFFF62 !important;
 }
 
-.btn_gray .tn-atom
+.btn_gray:not(:hover) .tn-atom
 {
     background: linear-gradient(180deg, #FFFFFF 21.15%, #999999 100%) !important;
     box-shadow: inset 0px 0px 30px #FFFFFF !important;
@@ -39,7 +39,7 @@ mix-blend-mode: plus-lighter;
     color: #FFCD02 !important;
 }
 
-.uc-request form button
+.uc-request form button:not(:hover)
 {
     background: linear-gradient(159.41deg, #FFCD02 34.3%, #A18F07 73.67%) !important;
     box-shadow: inset 0px 0px 20px #FFFF62 !important;
