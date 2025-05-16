@@ -33,6 +33,11 @@
 mix-blend-mode: plus-lighter;
 }
 
+[class*="uc-showmore-"].active
+{
+    text-decoration: underline;
+}
+
 .uc-request form button
 {
     background: linear-gradient(159.41deg, #FFCD02 34.3%, #A18F07 73.67%) !important;
