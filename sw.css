@@ -8,7 +8,7 @@
 {
     font-family: "Geist", sans-serif !important;
     letter-spacing: -0.03em !important;
-    transition: all 0.2s ease;
+    transition: all 0.2s ease !important;
 }
 
 .btn_dark .tn-atom:not(:hover)
