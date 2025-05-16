@@ -1,6 +1,6 @@
 .t-page-container .t-record-container
 {
-    background: #150027;
+    background: #150027 !important;
 }
 
 .tn-artboard *
@@ -36,7 +36,7 @@
 
 .fg-glow
 {
-mix-blend-mode: plus-lighter;
+    mix-blend-mode: plus-lighter !important;
 }
 
 [href*="showmore-"].active
@@ -53,5 +53,5 @@ mix-blend-mode: plus-lighter;
 
 .bg-image
 {
-    z-index: -1;
+    z-index: -1 !important;
 }
