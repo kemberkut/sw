@@ -35,7 +35,8 @@ mix-blend-mode: plus-lighter;
 
 [href*="showmore-"].active
 {
-    text-decoration: underline;
+    text-decoration: underline !important;
+    color: #FFCD02 !important;
 }
 
 .uc-request form button
