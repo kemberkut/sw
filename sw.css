@@ -3,8 +3,13 @@
     background: #150027;
 }
 
-#allrecords *,
 .tn-artboard *
+{
+    font-family: "Geist", sans-serif !important;
+    letter-spacing: -0.03em !important;
+}
+
+#allrecords *
 {
     font-family: "Geist", sans-serif !important;
     letter-spacing: -0.03em !important;
