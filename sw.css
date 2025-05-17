@@ -69,14 +69,13 @@
 
 .uc-history .t1148__slider 
 {
+    --image-height: 480px;
+    --image-gap: 40px;
+    --image-width: calc(var(--image-height) / 16 * 9) !important;
     gap: var(--image-gap) !important;
     margin: auto !important;
     width: calc(var(--image-width)*3 + var(--image-gap)*2) !important;
-    padding: unset !important;
-    --image-height: 480px;
-    --image-width: calc(var(--image-height) / 16 * 9) !important;
-    --image-gap: 40px;
-    
+    padding: unset !important;    
 }
 
 .uc-history .t1148__item
