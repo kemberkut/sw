@@ -69,21 +69,26 @@
 
 .uc-history .t1148__slider 
 {
-    gap: var(--column-gap) !important;
+    gap: var(--image-gap) !important;
     margin: auto !important;
-    width: var(--container-max-width) !important;
+    width: calc(var(--image-width)*3 + var(--image-gap)*2) !important;
     padding: unset !important;
+    --image-height: 250px;
+    --image-width: calc(var(--image-height) / 16 * 9) !important
+    --image-gap: 40px;
+    
 }
 
 .uc-history .t1148__item
 {
-    width: calc(var(--column-width)* 4 + var(--column-gap)* 3) !important;
+    width: var(--image-width);
 }
 
 .uc-history .t1148__img-wrapper
 {
     margin: auto !important;
-    width: calc(var(--column-width)* 4 + var(--column-gap)* 3) !important;
+    width: var(--image-width);
+    height: var(--image-height);
 }
 
 .uc-history .t1148__descr
