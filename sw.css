@@ -75,7 +75,9 @@
     gap: var(--image-gap) !important;
     margin: auto !important;
     width: calc(var(--image-width)*3 + var(--image-gap)*2) !important;
-    padding: unset !important;    
+    padding: unset !important;  
+    scroll-padding-left: unset !important;
+    scroll-padding-right: unset !important;
 }
 
 .uc-history .t1148__item
