@@ -63,12 +63,27 @@
 
 .uc-history
 {
-    z-index: 100 !important;
+    z-index: 10 !important;
+    position: relative !important;
+}
+
+.uc-history .t1148__slider 
+{
+    gap: var(--column-gap) !important;
+    margin: auto !important;
+    width: var(--container-max-width) !important;
+    padding: unset !important;
+}
+
+.uc-history .t1148__item
+{
+    width: calc(var(--column-width)* 4 + var(--column-gap)* 3) !important;
 }
 
 .uc-history .t1148__img-wrapper
 {
     margin: auto !important;
+    width: calc(var(--column-width)* 4 + var(--column-gap)* 3) !important;
 }
 
 .uc-history .t1148__descr
