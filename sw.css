@@ -74,7 +74,7 @@
     width: calc(var(--image-width)*3 + var(--image-gap)*2) !important;
     padding: unset !important;
     --image-height: 480px;
-    --image-width: calc(var(--image-height) / 16 * 9) !important
+    --image-width: calc(var(--image-height) / 16 * 9) !important;
     --image-gap: 40px;
     
 }
