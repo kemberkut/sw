@@ -36,7 +36,7 @@
 
 .fg-glow
 {
-    mix-blend-mode: plus-lighter !important;
+    mix-blend-mode: lighten !important;
 }
 
 [href*="showmore-"].active
